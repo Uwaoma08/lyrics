@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,500&family=Pacifico&family=Roboto+Mono:wght@100;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+</head>
+<body>
+    
+    <section>
+        <div class="section1">
+            <button onclick="myFunction()" class="token">Generate Token</button>
+            <div class="container1">
+                <h2 class="lyrics">Lyric Search</h2>
+                <div class="input"><input type="text" placeholder="Enter artist or song name"> <button class="button" value="Submit" type="submit">Search</button></div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="container2">
+                <div id="get-song"></div>
+                <!-- <div id="get-lyrics" class="get-lyrics">
+                    <div class="artist"></div>
+                    <button class="get-lyrics-btn">Song Info</button>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="section3 hide">
+            <div id="display2" class="container2 padding-border ">
+                <div class="get-lyrics">
+            
+                    <div class="image" ><img class="image"id="imageValue" src="" alt=""></div>
+                    <i class="las la-times-circle"></i>
+                    
+                </div>
+                    <div class="get-lyrics">
+                        <div class="artist result-div">
+                            <div class="info"><p>Artist:</p></div>
+                            <div  id="nameValue" class="value"><p></p></div>
+                        </div>
+                    </div>
+                    <div class="get-lyrics">
+                        <div class="artist result-div">
+                            <div class="info"><p>Title:</p></div>
+                            <div  id="titleValue" class="value"><p></p></div>
+                        </div>
+                    </div>
+                    <div class="get-lyrics">
+                        <div class="artist result-div">
+                            <div class="info"><p>Released:</p></div>
+                            <div  id="dateValue" class="value"><p></p></div>
+                        </div>
+                    </div>
+                    <div class="get-lyrics">
+                        <div class="artist result-div">
+                            <div class="info"><p>Download/Listen:</p></div>
+                            <div  id="downloadValue" class="value"><p></p></div>
+                        </div>
+                    </div>
+                   
+                </div>
+           
+        </div>
+    </section>
+   <script src="art.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section1{
+    /* position: relative; */
+    width: 100%;
+    height: 50%;
+    background-image: url("img/guilta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    width: 60%;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;;
+}
+.lyrics{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+}
+input{
+    width: 70%;
+    border: none;
+    padding: 5px 0;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+.button{
+    font-size: 15px;
+    width: 20%;
+    border-radius:20px ;
+    background-color:#e052fd;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+}
+input:focus{
+    outline-style: none;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+.section2{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px 1px 0px #dbdada;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.container2{
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+.get-lyrics{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 15px;padding-bottom: 10px;
+    border-bottom: 1px solid rgb(214, 213, 213);
+    cursor: pointer;
+}
+.get-lyrics:hover{
+    border-radius: 5px;
+}
+.artist{
+    width: 80%;
+    color: 000;
+}
+.get-lyrics-btn{
+    background-color: blueviolet;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    padding: 0 10px;
+}
+button{
+    cursor: pointer;
+}
+
+.result-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.info{
+    width: 50%;
+    font-weight: 600;
+    font-size: 16px;
+}
+.value{
+    width: 50%;
+    font-size: 14;
+    text-align: left;
+}
+.image{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.section3{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f3f2f3;
+    height: 800px;
+
+
+}
+.padding-border{
+    width: 80%;
+    margin: 0px auto;
+    padding: 40px;
+    padding-top: 20px;
+    border: 1px solid rgb(231, 230, 230);
+    box-shadow: 0px 2px 2px 1px #e8e7e9;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.la-times-circle{
+    font-size: 30px;
+    color: rgb(189, 188, 188);
+    cursor: pointer;
+}
+.la-times-circle:hover{
+    color: red;
+}
+
+.token{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: #513355;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
